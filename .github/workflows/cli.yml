@@ -4,6 +4,8 @@ on:
         branches: [main]
     pull_request:
         branches: [main]
+permissions:
+    contents: write
 jobs:
     # e2e_tests:
     # timeout-minutes: 60
